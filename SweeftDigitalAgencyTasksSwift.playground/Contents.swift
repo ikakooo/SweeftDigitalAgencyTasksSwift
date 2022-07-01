@@ -87,7 +87,7 @@ print("ერეიში არ არის რიცხვი:  \( notContain
 print("ერეიში არ არის რიცხვი:  \( notContainsAndMoreThanZero([1,3,4]))")
 
 
-// Task 3)
+// Task 4)
 func checkParentheses(_ s: String) -> Bool {
     let pairs: [Character: Character] = ["(": ")", "[": "]", "{": "}"]
     var stack: [Character] = []
